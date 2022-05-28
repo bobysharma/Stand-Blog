@@ -1,0 +1,1455 @@
+/* *{margin: 0%;} */
+.body{margin: 0%;
+padding: 0%;}
+
+.main_header{
+    height: 110px;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 0%;
+    margin: 0%;
+    clear: both;
+}
+
+
+.logo{
+    text-decoration: none;
+    width: 15%;
+    margin-left: 9%;
+    padding-top: 3%;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.logo a:hover{cursor: pointer;}
+
+.logo #log{ 
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.border{
+    width: 0.5%;
+    border: 1px solid #f48840;
+    background-color: #f48840;
+    padding: 3.5px 1px;
+    /* border-radius: 5px; */
+    position: absolute;
+    left: 23%;
+    top: 10.3%;
+}
+.border:hover{cursor: pointer;}
+ 
+.sub_menu{
+    /* width: 100%; */
+    margin-left: 35%;
+    margin-top: -2.5%;
+    /* transform: translate(-50%,-50%); */
+}
+
+.sub_menu ul li{
+        display:inline-flex;
+        margin-left: 50px; 
+}
+
+.sub_menu ul{
+    text-decoration: none;
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+.sub_menu ul li a{text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    /* padding: 16px 0 3px; */
+    /* margin: 0 10px; */
+    font-size: 15px;
+    font-weight: 900;
+    color: black;
+}
+
+.sub_menu ul li a:hover{
+    color: #f48840; 
+}
+
+.sub_menu li a#home{
+    color: #f48840;
+}
+
+.sub_menu li a#about{
+    color: #f48840;
+}
+.sub_menu li a#blog{
+    color: #f48840;
+}
+.sub_menu li a#post{
+    color: #f48840;
+}
+.sub_menu li a#contact{
+    color: #f48840;
+}
+
+.banner1{
+
+        position: absolute;
+        left: 0.5%;
+        top: 20%;
+        /* padding: 5px; */
+        /* margin: 3px; */
+        width: 33%;
+        height: 350px;
+        margin-top: 0%;
+        margin-left: 1px;
+        /* padding-top: 15px; */
+        /* border:1px solid black; */
+                
+}
+.banner2{
+    position: absolute;
+    left: 33%;
+    top: 16.9%;
+    padding: 10px;
+    margin: 10px;
+    width: 32%;
+    height: 360px;
+    /* padding-top: 15px; */
+    
+}
+.banner3{
+    position: absolute;
+    left: 66%;
+    top: 16.9%;
+    padding: 10px;
+    margin: 10px;
+    width: 31%;
+    height: 360px;
+    /* padding-top: 15px; */
+}
+
+.banner1 h1{
+    position: absolute;
+    left: 7%;
+    top: 65%;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #f48840;
+}
+.banner1 h2{
+    position: absolute;
+    left: 7%;
+    top: 72%;
+    /* text-transform: uppercase; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+}
+.banner1 h2{cursor: pointer;}
+.banner1 span{
+    position: absolute;
+    left: 8%;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+.banner1 span:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+.banner1 .stop{
+    position: absolute;
+    left: 20%;
+    top: 93%;
+    /* color: #fff; */
+    width: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 8px 0px;
+    /* border-radius: 5px; */
+}
+.banner1 a{
+    position: absolute;
+    left: 23%;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+    }
+
+.banner1 a:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+.banner1 .stop1{
+        position: absolute;
+        left: 45%;
+        top: 93%;
+        /* color: #fff; */
+        width: 0%;
+        border: 1px solid #fff;
+        background-color: #fff;
+        padding: 8px 0px;
+        /* border-radius: 5px; */
+    }
+
+.banner1 p{
+    position: absolute;
+    left: 50%;
+    top: 89%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+
+.banner1 p:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+
+.banner2 h1{
+    position: absolute;
+    left: 10%;
+    top: 58%;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #f48840;
+}
+
+.banner2 pre{
+    position: absolute;
+    left: 10%;
+    top: 67%;
+    /* text-transform: uppercase; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+} 
+.banner2 pre{cursor: pointer;}
+ 
+.banner2 span{
+    position: absolute;
+    left: 10%;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+.banner2 span:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+.banner2 .stop{
+    position: absolute;
+    left: 21%;
+    top: 93%;
+    /* color: #fff; */
+    width: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 8px 0px;
+    /* border-radius: 5px; */
+}
+.banner2 a{
+    position: absolute;
+    left: 24%;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+    }
+
+.banner2 a:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+.banner2 .stop1{
+        position: absolute;
+        left: 45%;
+        top: 93%;
+        /* color: #fff; */
+        width: 0%;
+        border: 1px solid #fff;
+        background-color: #fff;
+        padding: 8px 0px;
+        /* border-radius: 5px; */
+    }
+
+.banner2 p{
+    position: absolute;
+    left: 48%;
+    top: 89%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+.banner2 p:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.banner3 h1{
+    position: absolute;
+    left: 10%;
+    top: 58%;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: #f48840;
+}
+
+.banner3 pre{
+    position: absolute;
+    left: 10%;
+    top: 67%;
+    /* text-transform: uppercase; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffff;
+} 
+
+.banner3 pre{cursor: pointer;}
+ 
+.banner3 span{
+    position: absolute;
+    left: 10%;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+
+.banner3 span:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.banner3 .stop{
+    position: absolute;
+    left: 21%;
+    top: 93%;
+    /* color: #fff; */
+    width: 0%;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 8px 0px;
+    /* border-radius: 5px; */
+}
+.banner3 a{
+    position: absolute;
+    left: 24%;
+    top: 93%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+    }
+
+.banner3 a:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+.banner3 .stop1{
+        position: absolute;
+        left: 45%;
+        top: 93%;
+        /* color: #fff; */
+        width: 0%;
+        border: 1px solid #fff;
+        background-color: #fff;
+        padding: 8px 0px;
+        /* border-radius: 5px; */
+    }
+
+.banner3 p{
+    position: absolute;
+    left: 48%;
+    top: 89%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #ffff;
+}
+
+.banner3 p:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.small-banner{
+    width: 85.5%;
+    height: 100%;
+    position: absolute;
+    top: 90%;
+    left: 10%;
+}
+/* .sticky{ */
+    /* position: absolute; */
+    /* position: sticky; */
+/* } */
+.small-banner h1{
+    position: absolute;
+    top: 29px;
+    left: 45px;
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #f48840;
+}
+
+.small-banner h2{
+    position: absolute;
+    top: 65px;
+    left: 38px;
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.small-banner #btn{
+    width: 15%;
+    height: 50px;
+    position: absolute;
+    left: 77%;
+    top: 50px;
+    background-color:#f48840 ;
+    color: #fff;
+    text-transform: uppercase;
+}
+.small-banner #btn:hover{
+    cursor: pointer;
+}
+.content1-image1{
+    position: absolute;
+    left: 10%;
+    top: 125%;
+    width: 55%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.content1{
+    position: absolute;
+    left: 9.9%;
+    top: 170.5%;
+    width: 55%;
+    height: 480px;
+    border: 1px solid rgb(233, 210, 210);
+    border-width: 0 1px 1px 1px;
+}
+.content1 h1{
+    position: absolute;
+    left: 5%;
+    top: 13%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f48840 ;
+}
+
+.content1 h2{
+    position: absolute;
+    left: 5%;
+    top: 20%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.content1 h2{cursor: pointer;}
+
+.content1 span{
+    position: absolute;
+    left: 5%;
+    top: 31%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+
+.content1 span:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content1 .stop{
+    position: absolute;
+    left: 12%;
+    top: 31%;
+    /* color: #fff; */
+    width: 0.1%;
+    border: 0px solid rgb(170, 158, 158);
+    background-color: rgb(170, 158, 158);
+    padding: 8px 0px;
+    /* border-radius: 5px; */
+}
+.content1 a{
+    position: absolute;
+    left: 14%;
+    top: 31%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+    }
+
+.content1 a:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+.content1 .stop1{
+        position: absolute;
+        left: 27%;
+        top: 31%;
+        /* color: #fff; */
+        width: 0.2%;
+        border: 0px solid rgb(170, 158, 158);
+        background-color: rgb(170, 158, 158);
+        padding: 8px 0px;
+        /* border-radius: 5px; */
+    }
+
+.content1 p{
+    position: absolute;
+    left: 28%;
+    top: 28%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+
+.content1 p:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content1 .line{
+    position: absolute;
+    left: 4%;
+    top: 38%;
+    width: 90%;
+    border: 0.1px solid rgb(238, 230, 230);
+    /* padding: 0px 0px; */
+}
+
+.content1 pre{
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 1px;
+    font-size: 15px;
+    color: rgb(112, 109, 109);
+    /* font-weight: 800; */
+    /* text-transform: uppercase; */
+}
+
+.content1 .line2{
+    position: absolute;
+    left: 4%;
+    top: 80%;
+    width: 90%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+ 
+.content1 .tag i{
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: #f48840;
+}
+
+.content1 .tag ul{
+    display: inline-flex;
+    position: absolute;
+    left: 3%;
+    top: 85%;
+}
+
+.content1 .tag ul li{
+    
+    list-style: none;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+
+.content1 .tag ul li:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content1 .share i{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: #f48840;
+}
+
+.content1 .share ul{
+    display: inline-flex;
+    position: absolute;
+    left: 72%;
+    top: 85%;
+}
+.content1 .share ul li{
+    list-style: none;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+.content1 .share ul li:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+ 
+.content2-image2{
+    position: absolute;
+    left: 10%;
+    top: 255%;
+    width: 55%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.content2{
+    position: absolute;
+    left: 9.9%;
+    top: 300%;
+    width: 55%;
+    height: 440px;
+    border: 1px solid rgb(233, 210, 210);
+    border-width: 0 1px 1px 1px;
+}
+.content2 h1{
+    position: absolute;
+    left: 5%;
+    top: 16%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f48840 ;
+}
+
+.content2 h2{
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.content2 h2{cursor: pointer;}
+
+.content2 span{
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+
+.content2 span:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content2 .stop{
+    position: absolute;
+    left: 13%;
+    top: 35%;
+    /* color: #fff; */
+    width: 0.1%;
+    border: 0px solid rgb(170, 158, 158);
+    background-color: rgb(170, 158, 158);
+    padding: 8px 0px;
+    /* border-radius: 5px; */
+}
+.content2 a{
+    position: absolute;
+    left: 14%;
+    top: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+    }
+
+.content2 a:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+.content2 .stop1{
+        position: absolute;
+        left: 27%;
+        top: 35%;
+        /* color: #fff; */
+        width: 0.2%;
+        border: 0px solid rgb(170, 158, 158);
+        background-color: rgb(170, 158, 158);
+        padding: 8px 0px;
+        /* border-radius: 5px; */
+    }
+
+.content2 p{
+    position: absolute;
+    left: 28%;
+    top: 31.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    word-spacing: 1%;
+    color: rgb(170, 158, 158);
+}
+
+.content2 p:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content2 .line{
+    position: absolute;
+    left: 4%;
+    top: 42%;
+    width: 90%;
+    border: 0.1px solid rgb(238, 230, 230);
+    /* padding: 0px 0px; */
+}
+
+.content2 pre{
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    font-size: 15px;
+    color: rgb(112, 109, 109);
+    /* font-weight: 800; */
+    /* text-transform: uppercase; */
+}
+
+.content2 .line2{
+    position: absolute;
+    left: 4%;
+    top: 80%;
+    width: 90%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+ 
+.content2 .tag i{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: #f48840;
+}
+
+.content2 .tag ul{
+    display: inline-flex;
+    position: absolute;
+    left: 3%;
+    top: 85%;
+    }
+.content2 .tag ul li{
+    list-style: none;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+.content2 .tag ul li:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content2 .share i{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: #f48840;
+}
+
+.content2 .share ul{
+    display: inline-flex;
+    position: absolute;
+    left: 72%;
+    top: 85%;
+}
+
+.content2 .share ul li{
+    list-style: none;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+
+.content2 .share ul li:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content3-image3{
+    position: absolute;
+    left: 10%;
+    top: 380%;
+    width: 55%;
+    height: 300px;
+    /* border: 1px solid black; */
+}
+.content3{
+    position: absolute;
+    left: 9.9%;
+    top: 425%;
+    width: 55%;
+    height: 450px;
+    border: 1px solid rgb(233, 210, 210);
+    border-width: 0 1px 1px 1px;
+}
+.content3 h1{
+    position: absolute;
+    left: 5%;
+    top: 16%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #f48840 ;
+}
+
+.content3 h2{
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.content3 h2{cursor: pointer;}
+
+.content3 span{
+    position: absolute;
+    left: 5%;
+    top: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+
+.content3 span:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content3 .stop{
+    position: absolute;
+    left: 13%;
+    top: 35%;
+    /* color: #fff; */
+    width: 0.1%;
+    border: 0px solid rgb(170, 158, 158);
+    background-color: rgb(170, 158, 158);
+    padding: 8px 0px;
+    /* border-radius: 5px; */
+}
+.content3 a{
+    position: absolute;
+    left: 14%;
+    top: 35%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+    }
+
+.content3 a:hover{
+        color: #f48840;
+        cursor: pointer;
+}
+
+.content3 .stop1{
+        position: absolute;
+        left: 27%;
+        top: 35%;
+        /* color: #fff; */
+        width: 0.2%;
+        border: 0px solid rgb(170, 158, 158);
+        background-color: rgb(170, 158, 158);
+        padding: 8px 0px;
+        /* border-radius: 5px; */
+    }
+
+.content3 p{
+    position: absolute;
+    left: 29%;
+    top: 31.5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    word-spacing: 1%;
+    color: rgb(170, 158, 158);
+}
+
+.content3 p:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content3 .line{
+    position: absolute;
+    left: 4%;
+    top: 42%;
+    width: 90%;
+    border: 0.1px solid rgb(238, 230, 230);
+    /* padding: 0px 0px; */
+}
+
+.content3 pre{
+    position: absolute;
+    left: 5%;
+    top: 45%;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 3px;
+    font-size: 15px;
+    color: rgb(112, 109, 109);
+    /* font-weight: 800; */
+    /* text-transform: uppercase; */
+}
+
+.content3 .line2{
+    position: absolute;
+    left: 4%;
+    top: 83%;
+    width: 90%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+ 
+.content3 .tag ul i{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: #f48840;
+}
+
+.content3 .tag ul{
+    display: inline-flex;
+    position: absolute;
+    left: 3%;
+    top: 85%;
+}
+.content3 .tag ul li{
+    list-style: none;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+.content3 .tag ul li:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+
+.content3 .share ul i{
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    color: #f48840;
+}
+
+.content3 .share ul{
+    display: inline-flex;
+    position: absolute;
+    left: 72%;
+    top: 85%;
+}
+.content3 .share ul li{
+    list-style: none;
+    margin: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: rgb(170, 158, 158);
+}
+.content3 .share ul li:hover{
+    color: #f48840;
+    cursor: pointer;
+}
+#all-post{
+    position: absolute;
+    left: 10%;
+    top: 500%;
+    width: 55%; 
+    height: 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #f48840;
+    border-style: none;
+    color: white;
+}
+#all-post:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+ 
+.footer{
+    position: absolute;
+    top: 523%;
+    left: 0%;
+    width: 99.8%;
+    height: 280px;
+    /* border: 1px solid black; */
+    background-color: #20232e;;
+}
+ 
+.footer ul{
+    display: inline-flex;
+}
+
+.footer ul li{
+    position: relative;
+    left: 100%;
+    top: 17px; 
+    font-size: 13px;
+    list-style: none;
+    padding: 12%;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+
+}
+.footer ul li:hover{
+    cursor: pointer;
+    color: #f48840;
+}
+
+.footer .stop1{
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    color: #fff;
+    width: 0.1%;
+    border: 0px solid white;
+    background-color: white;
+    padding: 7px 0.5px;
+    /* border-radius: 5px; */
+}
+
+.footer .stop2{
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    color: #fff;
+    width: 0.1%;
+    border: 0px solid white;
+    background-color: white;
+    padding: 7px 0.5px;
+    /* border-radius: 5px; */
+}
+.footer .stop3{
+    position: absolute;
+    left: 47%;
+    top: 25%;
+    color: #fff;
+    width: 0.1%;
+    border: 0px solid white;
+    background-color: white;
+    padding: 7px 0.5px;
+    /* border-radius: 5px; */
+}
+.footer .stop4{
+    position: absolute;
+    left: 57%;
+    top: 25%;
+    color: #fff;
+    width: 0.1%;
+    border: 0px solid white;
+    background-color: white;
+    padding: 7px 0.3px;
+    /* border-radius: 5px; */
+}
+.footer .stop1{
+    position: absolute;
+    left: 66.5%;
+    top: 25%;
+    color: #fff;
+    width: 0.1%;
+    border: 0px solid white;
+    background-color: white;
+    padding: 7px 0.3px;
+    /* border-radius: 5px; */
+}
+
+.footer .stop5{
+    position: absolute;
+    left: 12%;
+    top: 50%;
+    width: 80%;
+    border: 0.1px solid rgb(255, 254, 254);
+    /* padding: 0px 0px; */
+}
+
+h3{
+    position: absolute;
+    left: 38%;
+    top: 65%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h2{
+    position: absolute;
+    left: 33%;
+    top: 75%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+ h2 a{
+     color:#f48840;
+ }
+
+#search1{
+    position: absolute;
+    left: 70%;
+    top: 125%;
+    /* color: black; */
+    width: 20%;
+    height:7%;
+    /* border: 1px rgb(85, 74, 74); */
+    
+    /* margin-left: 1%; */
+}
+input[type="text"]::placeholder {  
+                  
+    /* Firefox, Chrome, Opera */ 
+    padding-left: 10px;
+} 
+.heading h2{
+    position: absolute;
+    left: 70%;
+    top: 140%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.heading .line1{
+    position: absolute;
+    left: 70%;
+    top: 148%;
+    width: 20%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+.heading h3{
+    position: absolute;
+    left: 70%;
+    top: 148%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.heading h3:hover{
+    color:#f48840;
+    cursor: pointer;
+}
+.heading span{
+    position: absolute;
+    left: 70%;
+    top: 162%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 158, 158);
+    font-size: 15px;
+}
+.heading .line2{
+    position: absolute;
+    left: 70%;
+    top: 168%;
+    width: 20%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+
+.heading h4{
+    position: absolute;
+    left: 70%;
+    top: 165%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.heading h4:hover{
+    color:#f48840;
+    cursor: pointer;
+}
+.heading a{
+    position: absolute;
+    left: 70%;
+    top: 182%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 158, 158);
+    font-size: 15px;
+}
+.heading .line3{
+    position: absolute;
+    left: 70%;
+    top: 188%;
+    width: 20%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+.heading h5{
+    position: absolute;
+    left: 70%;
+    top: 185%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.heading h5:hover{
+    color:#f48840;
+    cursor: pointer;
+}
+.heading p{
+    position: absolute;
+    left: 70%;
+    top: 200%;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(170, 158, 158);
+    font-size: 15px;
+}
+.heading .line4{
+    position: absolute;
+    left: 70%;
+    top: 210%;
+    width: 20%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+.cate h1{
+    position: absolute;
+    left: 70%;
+    top: 215%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cate .line1{
+    position: absolute;
+    left: 70%;
+    top: 223%;
+    width: 20%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+ 
+.cate ul{
+    position: absolute;
+    left: 70%;
+    top: 225%;
+	list-style: none;
+	padding-left: 0em;
+    
+}
+.cate ul li{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 8%;
+
+}
+.cate ul li:hover{
+    color:#f48840;
+    cursor: pointer;
+}
+
+.cate ul li:before {
+	content: "-";
+	position: absolute;
+	left: 0;
+}
+
+.cloud h1{
+    position: absolute;
+    left: 70%;
+    top: 275%;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.cloud .line1{
+    position: absolute;
+    left: 70%;
+    top: 282%;
+    width: 20%;
+    border: 0.1px solid rgb(238, 230, 230);
+}
+
+.cloud #btn1{
+    position: absolute;
+    left: 70%;
+    top: 286%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn1:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+.cloud #btn2{
+    position: absolute;
+    left: 77.5%;
+    top: 286%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* font-weight: 700; */
+    /* background-color: rgb(253, 253, 253); */
+    /* border-color: rgb(238, 230, 230); */
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn2:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+.cloud #btn3{
+    position: absolute;
+    left: 85%;
+    top: 286%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* font-weight: 700; */
+    /* background-color: rgb(253, 253, 253); */
+    /* border-color: rgb(238, 230, 230); */
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn3:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+.cloud #btn4{
+    position: absolute;
+    left: 70%;
+    top: 297%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* font-weight: 700; */
+    /* background-color: rgb(253, 253, 253); */
+    /* border-color: rgb(238, 230, 230); */
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn4:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+.cloud #btn5{
+    position: absolute;
+    left: 77.5%;
+    top: 297%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* font-weight: 700; */
+    /* background-color: rgb(253, 253, 253); */
+    /* border-color: rgb(238, 230, 230); */
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn5:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+.cloud #btn6{
+    position: absolute;
+    left: 85%;
+    top: 297%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* font-weight: 700; */
+    /* background-color: rgb(253, 253, 253); */
+    /* border-color: rgb(238, 230, 230); */
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn6:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+.cloud #btn7{
+    position: absolute;
+    left: 70%;
+    top: 307%;
+    width: 7%; 
+    height: 53px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    /* font-weight: 700; */
+    /* background-color: rgb(253, 253, 253); */
+    /* border-color: rgb(238, 230, 230); */
+    border: 1px solid rgb(238, 230, 230);
+    border-style: none;
+    color: black;
+}
+.cloud #btn7:hover{
+    background-color: #ee9352;
+    cursor: pointer;
+}
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
